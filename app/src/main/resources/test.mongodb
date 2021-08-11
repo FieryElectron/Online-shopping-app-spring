@@ -1,0 +1,17 @@
+// mongodb://username:password@192.168.184.141:30000
+
+show dbs;
+
+
+
+show collections;
+
+db;
+
+use('test');
+show collections;
+
+
+db.dropDatabase();
+
+db.users.find();
